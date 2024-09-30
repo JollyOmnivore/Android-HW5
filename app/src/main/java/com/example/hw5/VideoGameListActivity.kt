@@ -50,6 +50,7 @@ class VideoGameListActivity : AppCompatActivity() {
                 intent.putExtra("Name", VideoGames.Games[position].name)
                 intent.putExtra("Description", VideoGames.Games[position].description)
                 intent.putExtra("Image", VideoGames.Games[position].ImageReasourceID)
+                intent.putExtra("Position", position)
                 startActivity(intent)
             }
         }

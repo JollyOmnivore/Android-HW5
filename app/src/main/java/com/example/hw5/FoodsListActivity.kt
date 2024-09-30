@@ -51,6 +51,7 @@ class FoodsListActivity : AppCompatActivity() {
                 intent.putExtra("Name", Foods.Foods[position].name)
                 intent.putExtra("Description", Foods.Foods[position].description)
                 intent.putExtra("Image", Foods.Foods[position].ImageReasourceID)
+                intent.putExtra("Position", position)
                 startActivity(intent)
             }
         }

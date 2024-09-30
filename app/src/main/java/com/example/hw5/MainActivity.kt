@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
 
         // First view set up
-        val categorys = mutableListOf("Video Games","Shows", "Food")
+        val categorys = mutableListOf("Video Games","Shows","Food")
         listView = findViewById(R.id.frontPageList)
         val adapter = ArrayAdapter(
             applicationContext,

@@ -51,6 +51,7 @@ class ShowsListActivity : AppCompatActivity() {
                 intent.putExtra("Name", Shows.Shows[position].name)
                 intent.putExtra("Description", Shows.Shows[position].description)
                 intent.putExtra("Image", Shows.Shows[position].ImageReasourceID)
+                intent.putExtra("Position", position)
                 startActivity(intent)
             }
         }

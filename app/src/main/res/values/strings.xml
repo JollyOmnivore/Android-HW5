@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">HW5</string>
     <string name="switch_to_delete_items">Switch to Delete Items</string>
+    <string name="delete">Delete</string>
     <string-array name="FrontPageList">
         <item>Bike</item>
         <item>Car</item>
